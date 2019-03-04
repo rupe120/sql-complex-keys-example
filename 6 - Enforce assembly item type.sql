@@ -1,3 +1,5 @@
+use Sandbox
+go
 
 -- Create a unique index on the full assembly information to enforce the assembly structure
 create unique index idx_Item_Type on Item (ItemID, ItemTypeID)

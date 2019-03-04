@@ -1,3 +1,5 @@
+use Sandbox
+go
 
 -- Create the unique index to reference from the foreign key
 create unique index idx_ItemTypeAssembly_ItemRelation on ItemTypeAssembly (ItemTypeID, Location, SubItemTypeID)

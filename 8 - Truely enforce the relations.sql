@@ -1,3 +1,5 @@
+use Sandbox
+go
 
 -- Null values can be rejected with constraints
 
